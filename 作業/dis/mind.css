@@ -1,0 +1,31 @@
+/*調整nav配色*/
+
+	.nav_01 > .head_01 > .ul_01 > .nav-item_01 > a{
+	color:#fff ;
+	}
+	.nav_01 > .head_01 > .ul_01 > .nav-item_01 > a:hover{
+	color:#dee7ea;
+	background-color:#48b2d9;
+	}
+/*響應式文字排版*/
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}

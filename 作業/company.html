@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://bootstrap.hexschool.com/docs/4.0/examples/carousel/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://www.pcsavior.com.tw/image/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <title>歡迎光臨平和電腦科技有限公司</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./dis/bootstrap.min.css" rel="stylesheet">
+    <link href="./dis/mind.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./dis/carousel.css" rel="stylesheet">
+    <script type="text/javascript">
+    $(function() {
+        /* 按下GoTop按鈕時的事件 */
+        $('#gotop').click(function() {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 'slow'); /* 返回到最頂上 */
+            return false;
+        });
+
+    });
+    </script>
+</head>
+
+<body>
+    <!-- 導覽列 -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top nav_01" style="background-color: #074064;">
+            <span class="navbar-brand mb-0 h1">
+        <img src="img/head.jpg" height="30" alt="">
+      </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse head_01 " id="navbarCollapse">
+                <ul class="navbar-nav mr-auto ul_01">
+                    <li class="nav-item_01">
+                        <a class="nav-link" href="company.html">關於我們</a>
+                    </li>
+                    <li class="nav-item_01">
+                        <a class="nav-link" href="index.html">線上訂購</a>
+                    </li>
+                    <li class="nav-item_01">
+                        <a class="nav-link" href="">媒體報導</a>
+                    </li>
+                    <li class="nav-item_01">
+                        <a class="nav-link" href="">展售訊息</a>
+                    </li>
+                    <li class="nav-item_01">
+                        <a class="nav-link" href="">產品教學</a>
+                    </li>
+                    <li class="nav-item_01">
+                        <a class="nav-link" href="">教學影片</a>
+                    </li>
+                    <li class="nav-item_01">
+                        <a class="nav-link" href="">問題Q&A</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <!-- 輪撥圖片 -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="first-slide " style="" src="img/chang_01.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="first-slide " style="" src="img/chang_02.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="first-slide " style="" src="img/chang_03.jpg" alt="First slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- 內容 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-01-list" data-toggle="list" href="#list-01" role="tab" aria-controls="01">PC救星簡介/緣起</a>
+                        <a class="list-group-item list-group-item-action" id="list-02-list" data-toggle="list" href="#list-02" role="tab" aria-controls="02">LINUX認證合格證書</a>
+                        <a class="list-group-item list-group-item-action" id="list-03-list" data-toggle="list" href="#list-03" role="tab" aria-controls="03">線上訂購付款說明</a>
+                        <a class="list-group-item list-group-item-action" id="list-04-list" data-toggle="list" href="#list-04" role="tab" aria-controls="04">升級與燒錄價格說明</a>
+                        <a class="list-group-item list-group-item-action" id="list-05-list" data-toggle="list" href="#list-05" role="tab" aria-controls="05">公司地理位置</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-01" role="tabpanel" aria-labelledby="list-01-list">
+                            <div class="alert alert-primary" role="alert">PC救星簡介 / 緣起</div>
+                            <span style="color:blue"><strong>我們為了解決一般人電腦的維護問題，所以創造了"PC救星"</strong></span>
+                            <br>
+                            <span class="h4" style="color:#5EB6C8">PC救星就是要來解救PC問題、那些問題？</span>
+                            <br>
+                            <br>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">1、作業系統太貴買不起。</li>
+                                <li class="list-group-item">2、安裝太麻煩老是缺驅動程式。</li>
+                                <li class="list-group-item">3、可攜性太差，只能用一台。</li>
+                                <li class="list-group-item">4、系統裝好軟體太少不能馬上用。</li>
+                                <li class="list-group-item">5、跑一段時間就容易當機。</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <span style="color:red"><strong>《有了PC救星處理電腦問題跟換燈泡一樣簡單</strong></span>
+                            <br>
+                            <span class="h4">目前系列產品：</span>
+                            <br>
+                            <br>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><span style="color:blue">開機隨身碟.....</span>開創隨身攜帶，走到那用到那的行動生活</li>
+                                <li class="list-group-item"><span style="color:blue">安裝光碟........</span>快速安裝；馬上使用；多系統擴充；不受限的使用環境</li>
+                            </ul>
+                            <img class="img-fluid" style="" src="img/020322_TITLE_1_1.png" alt="First slide">
+                        </div>
+                        <div class="tab-pane fade" id="list-02" role="tabpanel" aria-labelledby="list-02-list">
+                            <div class="alert alert-primary" role="alert">LINUX認證合格證書</div>
+                            <span style="color:#639ABC"><strong>2012/9/27  申請之PC救星OS全系列產品認證通過 </strong></span>
+                            <br>
+                            <span><small>由於PC救星作業可以安裝在多種規格及儲存體及不同電腦裝置上，故以OS為主申請統一的認證 </small></span>
+                            <br>
+                            <br>
+                            <img class="img-fluid" style="" src="img/020322_TITLE_2_1.png">
+                        </div>
+                        <div class="tab-pane fade" id="list-03" role="tabpanel" aria-labelledby="list-03-list">
+                            <div class="alert alert-primary" role="alert">付款方式</div>
+                            <span>轉帳付款真方便，選擇ATM自動櫃員機轉帳繳款，</span>
+                            <br>
+                            <span>您在全省任何一部ATM自動櫃員機，都能執行交易，十分安全方便。</span>
+                            <br>
+                            <span><strong><u>ATM銀行匯款</u></strong></span>
+                            <br>
+                            <img class="img-fluid" style="" src="img/020322_TITLE_2_2.png">
+                            <br>
+							<br>
+                            <span><strong><u>運費說明</u></strong></span>
+                            <br>
+                            <span style="color:#639ABC">宅配到府 貨到再付款</span>
+                            <br>
+                            <span>如您不便轉帳也可選用此方式，訂購金額須再加＄１２０元運費，由貼心的黑貓宅配人員為您將款項轉帳給本公司即可，「一手交錢，一手交貨」是既方便又有效率的付款方式，不僅不用出門也能輕鬆選購、安心消費。</span>
+                            <br>
+                            <br>
+                            <span style="color:#639ABC">100 safe 交易安全控管把關</span>
+                            <br>
+                            <span>在本公司購買商品，將有專業客服人員為您把關，確保服務與商品訂購程序，訂單完成沒問題才需付款，您可以百分之百的放心。 </span>
+                            <br>
+                            <br>
+                            <span style="color:#96290F"><strong>商品換貨說明</strong></span>
+                            <br>
+                            <span>本公司購買的商品，在您收到我們的商品後，如果商品因故無法使用，<span style="color:red">七天內憑發票</span> 可以辦理換貨服務（運費自付），請保持商品包裝完整無毀損，可親來辦理換貨，或 是連同
+                            <span style="color:red">商品發票</span>寄送本公司，並留下姓名、電話，我們會有專人處理。</span>
+                            <br>
+                            <span><strong>平和電腦科技有限公司 彰化市自強南路528號3樓  PC救星出貨部收</strong></span>
+                        </div>
+                        <div class="tab-pane fade" id="list-04" role="tabpanel" aria-labelledby="list-04-list">
+                            <div class="alert alert-primary" role="alert">升級與燒錄價格說明</div>
+							<img class="img-fluid" style="" src="img/041203_NOTE.jpg">
+						</div>
+                        <div class="tab-pane fade" id="list-05" role="tabpanel" aria-labelledby="list-05-list">
+                            <div class="alert alert-primary" role="alert">公司地理位置</div>
+							<span><strong>平和電腦科技有限公司</strong><span style="color:blue">(PC救星開機隨身碟)</span></span>
+							<br>
+							<span class="fas fa-home"></span><span>彰化市自強南路528號3樓<span>
+							<br>
+							<span class="fas fa-phone"></span><span>TEL：886-4-7526982<span>
+							<span class="fas fa-fax"></span><span>FAX：886-4-7526995<span>
+							<span class="far fa-envelope"></span><span>service@netboss.com.tw <span>
+							<br>
+							<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.6190712077914!2d120.52946001534883!3d24.079715482032142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469389cc28a8459%3A0xfb6b3f9f7a7197cc!2zNTAw5b2w5YyW57ij5b2w5YyW5biC6Ieq5by35Y2X6LevNTI46JmfMw!5e0!3m2!1szh-TW!2stw!4v1525251914573" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<a href="https://goo.gl/maps/v8mfSA7ay5B2">View Larger Map</a>
+							</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <!-- FOOTER -->
+        <footer class="container">
+            <img class="img-fluid" src="img/060213_CONT.png" alt="" width="">
+            <img class="img-fluid" src="img/060213_FB.png" alt="" width="">
+            <img class="img-fluid" src="img/060213_LINE.png" alt="" width="">
+            <img class="img-fluid" src="img/060213_YAHOO.png" alt="" width="">
+            <img class="img-fluid" src="img/060213_RUTEN.jpg" alt="" width="">
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+        </footer>
+    </main>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-bottom nav_02" style="background-color: #0F4E75;">
+        <div class="container">
+            <div class="col-lg-6">
+                <span class="navbar-brand">您的購物車內有【0】項商品</span>
+                <span class="navbar-brand"><small>下訂商品後，請按下『購物結帳』即可進入訂購流程</small></span>
+            </div>
+            <div class="col-lg-2">
+                <button type="button" class="btn btn-success">購物結帳</button>
+            </div>
+            <div class="col-lg-2">
+                <a href="#" id="gotop" class="float-right fa fa-angle-up"></a>
+            </div>
+    </nav>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./dis/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./dis/popper.min.js"></script>
+    <script src="./dis/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./dis/holder.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
